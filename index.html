@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Login form</title>
+
+
+
+
+
+    <style>
+        img {
+            display: block;
+            margin-top:auto;
+          margin-right: auto;
+          margin-left: auto;
+          margin-bottom: auto;
+        }
+
+
+        .back{
+           
+      top: auto;
+      bottom: auto;
+      left: auto;
+      right: auto;
+
+      z-index: 1;
+        }
+
+
+        .front
+    {
+      position:absolute;
+      top:27%;
+      
+      left: 29%;
+      right: 71%;
+
+      z-index: 2;
+    }
+
+
+
+
+
+    /* unvisited link */
+b:unvisited {
+  color: black;
+}
+
+/* visited link */
+b:visited {
+  color: green;
+}
+
+/* mouse over link */
+b:hover {
+  color: red;
+}
+
+/* selected link */
+b:active {
+  color: yellow;
+} 
+b.ex5:hover, a.ex5:active {text-decoration: underline;cursor: pointer;}
+
+
+
+
+    .formcontent
+    {
+      position:absolute;
+      top:20%;
+      
+      
+      right:30%;
+
+      z-index: 2;
+    }
+
+
+
+    body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Add styles to the form container */
+.container {
+ 
+    position: absolute;
+  right:24%;
+ 
+  max-width: 300px;
+  padding: 16px;
+  background-color:rgba(255, 255, 255, 0);
+}
+
+/* Full-width input fields */
+input[type=mail],input[type=number], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 0px 0 12px 0px;
+  border: none;
+  background: white;
+}
+
+input[type=mail]:focus,input[type=number]:focus, input[type=password]:focus {
+  background-color: #FF7C15;
+  outline: none;
+}
+
+
+.button {
+                background-color: #ff0080; /* Green */
+               border: none;
+              
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 0px 100px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.1s;
+                }
+
+             .button1 {
+                  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+                 }
+           
+
+     
+        </style>
+
+
+</head>
+        
+        
+<body bgcolor="#F4F6F6">
+
+     <table border="0" width="100%" >
+        <tr>
+            <TD colspan="1"></TD>
+        </tr>
+        <th width="100%"></th>
+  
+       
+     </table>
+
+    
+    <table border="0" width="100%" >
+         
+        <tr>
+        <td align="left" width="1%"><img src="logo4.png" width="280" height="80px" ></td>
+        
+        <th width="14%"></th>
+        <td width="12%"><img src="student.png" widtha="80" height="80" ></td>
+        <td width="12%"><img src="teacher.png" widtha="80" height="80"></td>
+        <td width="12%"><img src="parent.png" widtha="80" height="80"></td>
+        <td width="12%"><img src="leader.png" widtha="80" height="80"></td>
+        </tr>
+        </table>
+        <table border="0" width="100%" >
+         
+            <tr>
+            <td width="15%"></td>
+            
+            <th width="14%"></th>
+            <th width="12%"><b class="ex5" href="">Student</b></th>
+            <th width="12%"><b class="ex5" href="">Teacher</b> </th>
+            <th width="12%"><b class="ex5" href="">Parent</b></th>
+            <th width="12%"><b class="ex5" href="">Leader</b></th>
+            </tr>
+        </table>
+      <br>
+    <img src="businessperson-businessman-0baae9fe689398338c9de1731631aae6.png"  style="width:200px;height:390px;" class="front">
+    <img src="4444444444444.png"  style="width:1000px;height:550px;" class="back" >
+
+
+
+    <div  class="formcontent">
+        <form action="page2.html" class="container">
+          <h2 style="text-align: center;">༺Login༻</h2>
+      
+        
+
+          <input style="border-radius:24px;" type="mail" placeholder="Enter Email or Phone" name="email" not-required>
+            
+          <h2 style="text-align: center;">-𝘖𝘳-</h2>
+          <input style="border-radius:24px;" type="number" placeholder="Your admission number" name="psw" required>
+
+          <input style="border-radius:24px;" type="password" placeholder="Enter Password" name="psw" required>
+            
+          <h5 style="text-align: right;">Forgot Password?</h5>
+          <a href="page2.html"><button class="button button1"  style="border-radius: 20px;">Login</button></a>
+          
+        </form>
+      </div>
+      
+ 
+</body>
+</html>
+
